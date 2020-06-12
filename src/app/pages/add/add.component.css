@@ -1,0 +1,121 @@
+.add-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.main-card{
+    margin-top: 2rem;
+    height: 90vh;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+}
+.city-search-wrapper {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1;
+    position: relative;
+    overflow-y: scroll;
+}
+.city-search-header {
+    width: 100%;
+    min-height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+.city-search-body {
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.city-search-title {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    word-break: break-all;
+    margin-bottom: 0.25rem;
+    margin-top: 0.75rem;
+}
+.search-city-input-wrapper{
+    position: relative;
+    width: 80%;
+    box-sizing: border-box;
+}
+.search-city-input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2rem 0.15rem rgba(0, 0, 255, 0.1);
+    font-size: 1rem;
+    color: #131F69;
+    text-transform: uppercase;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.ngui-auto-complete .item {
+    padding: 1rem !important;
+    cursor: pointer;
+}
+.search-city-btn{
+    cursor: pointer;
+    position: absolute;
+    background-color: #31feae;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    right: 0;
+    top: -0.35rem;
+    outline: none;
+    border: none;
+    z-index: 5;
+    box-shadow: 0 0 2rem 0.15rem rgba(0, 0, 255, 0.1);
+}
+.search-icon{
+    height: 50%;
+    width: 50%;
+}
+.city-search-body{
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.fav-city-wrapper {
+    flex: 1 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 100%;
+}
